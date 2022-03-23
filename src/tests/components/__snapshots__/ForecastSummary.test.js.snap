@@ -4,17 +4,21 @@ exports[`ForecastSummary renders the correct date, temperature, description and 
 <DocumentFragment>
   <div
     class="forecast-summary"
+    data-testid="forecast-summary"
   >
     <div
       class="forecast-summary_date"
     >
-      1111111
+      Thu 1st Jan
     </div>
     <div
       class="forecast-summary_icon"
       data-testid="forecast-icon"
     >
-      stubIcon
+      <i
+        class="wi wi-day-sunny"
+        name="owm"
+      />
     </div>
     <div
       class="forecast-summary_temperature"
