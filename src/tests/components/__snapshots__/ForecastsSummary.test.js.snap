@@ -12,6 +12,7 @@ exports[`ForecastSummary renders the correct date, temperature, description and 
     </div>
     <div
       class="forecast-summary_icon"
+      data-testid="forecast-icon"
     >
       stubIcon
     </div>
@@ -23,7 +24,7 @@ exports[`ForecastSummary renders the correct date, temperature, description and 
     <div
       class="forecast-summary_description"
     >
-      Stub description
+      stub description
     </div>
   </div>
 </DocumentFragment>
