@@ -30,6 +30,11 @@ exports[`ForecastSummary renders the correct date, temperature, description and 
     >
       stub description
     </div>
+    <button
+      type="button"
+    >
+      More details
+    </button>
   </div>
 </DocumentFragment>
 `;
