@@ -15,13 +15,13 @@ exports[`ForecastDetails renders the correct date, temperature, wind and humidit
       class="forecast-details_max-temperature"
       data-testid="forecast-temp-max"
     >
-      Max temperature: 22 °C
+      Max: 22 °C
     </div>
     <div
       class="forecast-details_min-temperature"
       data-testid="forecast-temp-min"
     >
-      Min temperature: 12 °C
+      Min: 12 °C
     </div>
     <div
       class="forecast-details_wind"

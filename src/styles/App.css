@@ -1,3 +1,6 @@
 .weather-app {
   margin: 20px;
+  background: url(../weather-background.jpeg);
+  background-size: cover;
+  padding: 30px;
 }

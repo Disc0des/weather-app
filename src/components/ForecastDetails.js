@@ -13,16 +13,16 @@ function ForecastDetails({ forecast }) {
         className="forecast-details_max-temperature"
         data-testid="forecast-temp-max"
       >
-        Max temperature: {temperature.max} &deg;C
+        Max: {temperature.max} &deg;C
       </div>
       <div
         className="forecast-details_min-temperature"
         data-testid="forecast-temp-min"
       >
-        Min temperature: {temperature.min} &deg;C
+        Min: {temperature.min} &deg;C
       </div>
       <div className="forecast-details_wind" data-testid="forecast-wind">
-        Wind: {wind.speed}mph {wind.direction}
+        Wind: {wind.speed}mph // {wind.direction}
       </div>
       <div
         className="forecast-details_humidity"
